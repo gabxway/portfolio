@@ -5,9 +5,139 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
+    
 </head>
 <body>
-    <h1>Főoldal</h1>
+    <header ><a href="#fooldal">Gabx</a>
+    <ul>
+        <li><a href="#fooldal">Főoldal</a></li>
+        <li><a href="#rolam">Rólam</a></li>
+        <li><a href="#portfolio">Portfolió</a></li>
+        <li><a href="#kapcsolat">Kapcsolat</a></li>
+    </ul>
+    
+    </header>
+
+    <main>
+
+        <section id="fooldal"> 
+            <div class="fooldal-container">
+                <h1 class="fooldal-container__nev">Gabx</h1>
+                <h2 class="fooldal-container__foglalkozas">Fronted and backend developer</h2>
+                <button class="fooldal-container__bomb">Contact</button>
+            </div>
+            <img src="./assets/img/im.png" alt="Gabx">
+
+        </section>
+
+        <section id="rolam">
+            <h2 class="rolam-cim">Rólam</h2>
+            <div class="rolam-container">
+                <div class="rolam-kepessegek">
+                    <img src="./assets/img/im.png" alt="Gabx">
+                    <div class="rolam-kepessegek__container">
+                        <p class="rolam-kepessegek__cim">Technologi:</p>
+                        <ul class="rolam-kepessegek__lista">
+                            <li class="rolam-kepessegek__elem">HTML</li>
+                            <li class="rolam-kepessegek__elem">CSS</li>
+                            <li class="rolam-kepessegek__elem">Javascript</li>
+                            <li class="rolam-kepessegek__elem">Angular</li>
+                            <li class="rolam-kepessegek__elem">React</li>
+                            <li class="rolam-kepessegek__elem">PHP</li>
+                            <li class="rolam-kepessegek__elem">C</li>
+                            <li class="rolam-kepessegek__elem">C#</li>
+                            <li class="rolam-kepessegek__elem">Python</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="rolam-tartalom">
+                    <h4 class="rolam-tartalom__udv">Hello, az én nevem</h4>
+                    <h3 class="rolam-tartalom__nev">Horváth Gábor</h3>
+                    <h4 class="rolam-tartalom__udv">Fronted and backend developer</h4>
+                    <p class="rolam-tartalom__szoveg">
+
+                    </p>
+                    <div class="rolam-tartalom__container">
+                        <button class="rolam-tartalom__gomb">Kapcsolat</button>
+                        <button class="rolam-tartalom__gomb">Önéletrajz</button>
+                    </div>
+                </div>
+            </div>
+        </section> 
+
+        <section id="portfolio">
+
+            <h2 class="portfolio-cim">Portfólió</h2>
+            <div class="portfolio-container">
+                <div class="portfolio-projekt">
+                    <img src="./assets/img/images.jpeg" alt="Az én Projektem">
+                    <div class="portfolio-projekt__coantiner">
+                        <h3>Portfólió oldal</h3>
+                        <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-container">
+                <div class="portfolio-projekt">
+                    <img src="./assets/img/images.jpeg" alt="Az én Projektem">
+                    <div class="portfolio-projekt__coantiner">
+                        <h3>Portfólió oldal</h3>
+                        <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-container">
+                <div class="portfolio-projekt">
+                    <img src="./assets/img/images.jpeg" alt="Az én Projektem">
+                    <div class="portfolio-projekt__coantiner">
+                        <h3>Portfólió oldal</h3>
+                        <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-container">
+                <div class="portfolio-projekt">
+                    <img src="./assets/img/images.jpeg" alt="Az én Projektem">
+                    <div class="portfolio-projekt__coantiner">
+                        <h3>Portfólió oldal</h3>
+                        <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="kapcsolat">
+            
+                <h2 class="kapcsolat-cim">Kapcsolat</h2>
+                <h3 class="kapcsilat-szoveg">Lépj velem kapcsolatba</h3>
+                <form action="#">
+                    <input type="text" id="name" name="nev" placeholder="Név">
+                    <input type="email" id="email" placeholder="Email">
+                    <textarea name="message" id="message" placeholder="üzenet"></textarea>
+                    <input type="submit" value="Küldés">
+
+                </form>
+        </section>
+
+    </main>
+    <footer>
+        <div>
+            <p>Copyright</p>
+            <div>&copy;</div>
+            <p>2022 Horváth Gábor</p>
+            
+        </div>
+        <div>
+            <a href="#fooldal"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
+            
+        </div>
+    </footer>
 </body>
 </html>
