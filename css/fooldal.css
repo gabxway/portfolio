@@ -1,0 +1,110 @@
+.fooldal {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-bottom: 1px solid var(--orange);
+    overflow: hidden;
+}
+
+.fooldal-container {
+    text-align: center;
+    z-index: 2;
+}
+
+.fooldal-container__nev {
+    color:var(--white);
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+.fooldal-container__foglalkozas {
+    color:var(--white);
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.fooldal-container__kiemeles {
+    color:var(--orange);
+    display: block;
+    
+}
+
+
+
+
+.fooldal-container__gomb {
+    border: 2px solid var(--orange);
+    background: var(--orange);
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+}
+
+.fooldal-container__gomb:hover {
+    border: 2px solid var(--white);
+    box-shadow: 1px 1px 5px 1px var(--white);
+}
+
+.fooldal-kor__elso {
+    width: 300px;
+    height: 300px;
+    background: var(--black);
+    border-radius: 100%;
+    position: absolute;
+    top: -100px;
+    left: -150px;
+}
+
+
+.fooldal-kor__masodik {
+    width: 250px;
+    height: 250px;
+    border: 3px solid var(--orange);
+    border-radius: 100%;
+    position: absolute;
+    bottom: -50px;
+    left: -125px;
+}
+
+
+
+.fooldal-kep {
+    display: none;
+}
+
+@media screen and (min-width: 576px) {
+    .fooldal-kor__harmadik {
+        width: 220px;
+        height: 220px;
+        background: var(--orange);
+        border-radius: 100%;
+        position: absolute;
+        top: 120px;
+        right: 20px;
+        opacity: 0.2;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .fooldal {
+        justify-content: flex-start;
+    }
+
+    .fooldal-kep{
+        display: block;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+}
+
+@media screen and (min-width: 1200px) {
+}
